@@ -1,0 +1,77 @@
+/* 全体設定 */
+/*余白なし*/
+/* フォントを「游明朝体」に設定 */
+body {
+  margin: 0;
+  font-family: "Yu Mincho", serif;
+}
+
+/* ヘッダー */
+/* ヘッダーの背景色と文字色を設定 */
+/* ヘッダー内のテキストを中央揃えに設定 */
+header {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* ヘッダー内の見出しの余白を調整 */
+header h1 {
+  margin: 0;
+}
+
+/* ナビゲーションメニュー */
+/* ナビゲーションメニューのリストスタイルを解除し、中央揃えに設定 */
+.main-nav {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* ナビゲーションメニューのリンクのスタイルを設定 */
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+/* ナビゲーションメニューのリンクにホバー効果を追加 */
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* メインコンテンツ */
+/* メインコンテンツの背景色とテキストの中央揃えを設定 */
+/* メインコンテンツの上下の余白を設定 */
+main {
+  background-color: lightcyan;
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* スライドショー画像のスタイルを設定 */
+/* 画像の幅を80%に設定し、最大幅を800pxに制限 */
+/* 画像の高さを自動調整し、角を丸くし、影を追加 */
+.slideshow-image {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* フッター */
+/* フッターの背景色とテキストの中央揃えを設定 */
+/* フッターの上下の余白とフォントサイズを設定 */
+/* フッターの文字色を設定 */
+footer {
+  background-color: lightcyan;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+  color: #333;
+}
